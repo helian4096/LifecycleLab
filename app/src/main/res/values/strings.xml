@@ -1,11 +1,13 @@
 <resources>
     <string name="app_name">Lifecycle Lab</string>
-    <string name="create">onCreate():</string>
-    <string name="start">onStart():</string>
-    <string name="resume">onResume():</string>
-    <string name="pause">onPause():</string>
-    <string name="stop">onStop():</string>
-    <string name="restart">onRestart():</string>
-    <string name="destroy">onDestroy():</string>
-    <string name="defaultNum">0</string>
+    <string name="create">onCreate(): </string>
+    <string name="start">onStart(): </string>
+    <string name="resume">onResume(): </string>
+    <string name="pause">onPause(): </string>
+    <string name="stop">onStop(): </string>
+    <string name="restart">onRestart(): </string>
+    <string name="destroy">onDestroy(): </string>
+    <string name="defaultNum">0, 0</string>
+    <string name="resetCount">Reset Original</string>
+    <string name="resetCount2">Reset Session</string>
 </resources>

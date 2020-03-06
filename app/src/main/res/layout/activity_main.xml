@@ -20,7 +20,8 @@
         android:layout_height="wrap_content"
         android:text="@string/defaultNum"
         android:textSize="30sp"
-        app:layout_constraintLeft_toRightOf="@+id/string1"/>
+        app:layout_constraintLeft_toRightOf="@id/string1"
+        app:layout_constraintTop_toTopOf="@id/string1" />
     <TextView
         android:id="@+id/string2"
         android:layout_width="wrap_content"
@@ -30,6 +31,14 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toBottomOf="@id/string1" />
     <TextView
+        android:id="@+id/string2.1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/defaultNum"
+        android:textSize="30sp"
+        app:layout_constraintLeft_toRightOf="@id/string2"
+        app:layout_constraintTop_toTopOf="@id/string2" />
+    <TextView
         android:id="@+id/string3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -37,6 +46,14 @@
         android:textSize="30sp"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toBottomOf="@id/string2" />
+    <TextView
+        android:id="@+id/string3.1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/defaultNum"
+        android:textSize="30sp"
+        app:layout_constraintLeft_toRightOf="@id/string3"
+        app:layout_constraintTop_toTopOf="@id/string3" />
     <TextView
         android:id="@+id/string4"
         android:layout_width="wrap_content"
@@ -46,6 +63,14 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toBottomOf="@id/string3" />
     <TextView
+        android:id="@+id/string4.1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/defaultNum"
+        android:textSize="30sp"
+        app:layout_constraintLeft_toRightOf="@id/string4"
+        app:layout_constraintTop_toTopOf="@id/string4" />
+    <TextView
         android:id="@+id/string5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -53,6 +78,14 @@
         android:textSize="30sp"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toBottomOf="@id/string4" />
+    <TextView
+        android:id="@+id/string5.1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/defaultNum"
+        android:textSize="30sp"
+        app:layout_constraintLeft_toRightOf="@id/string5"
+        app:layout_constraintTop_toTopOf="@id/string5" />
     <TextView
         android:id="@+id/string6"
         android:layout_width="wrap_content"
@@ -62,6 +95,14 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toBottomOf="@id/string5" />
     <TextView
+        android:id="@+id/string6.1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/defaultNum"
+        android:textSize="30sp"
+        app:layout_constraintLeft_toRightOf="@id/string6"
+        app:layout_constraintTop_toTopOf="@id/string6" />
+    <TextView
         android:id="@+id/string7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -69,6 +110,32 @@
         android:textSize="30sp"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toBottomOf="@id/string6" />
+    <TextView
+        android:id="@+id/string7.1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/defaultNum"
+        android:textSize="30sp"
+        app:layout_constraintLeft_toRightOf="@id/string7"
+        app:layout_constraintTop_toTopOf="@id/string7" />
 
+    <Button
+        android:id="@+id/resetCount"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:text="@string/resetCount"
+        android:textSize="30sp"
+        app:layout_constraintTop_toBottomOf="@id/string7"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+    <Button
+        android:id="@+id/resetCount2"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:text="@string/resetCount2"
+        android:textSize="30sp"
+        app:layout_constraintTop_toBottomOf="@id/resetCount"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
